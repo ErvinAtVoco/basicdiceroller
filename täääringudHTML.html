@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <title>Mängime täringuid!</title>
+    <meta charset="UTF-8">
+    <script src="tääääringud.js"></script>
+    <style>
+        body {
+            background-color: #eeb8ff;
+            font-family: sans-serif;
+            margin-top: 1.5em;
+            margin-bottom: 0.75em;
+            text-align: center;
+            justify-content: center;
+        }
+        #siiaViska {
+            margin-top: 1.5em;
+        }
+        #taaaring {
+            max-width: 50%;
+            max-height: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>TÄRINGU VEERETAJA</h1>
+        <p>Tegemist on väga lihtsa täringu veeretajaga. Palun sisestage all olevasse sisestus ribasse kui mitu täringut soovite visata!</p>
+        <p>Siis vaatake kuidas minu javascript kood teile need täringud viskab!</p>
+        <label for="mituViset"><b>Mitu täringut soovite visata?</b></label>
+        <br>
+        <input type="number" id="mituViset">
+        <br>
+        <br>
+        <button onclick="taringuVise()">Veereta!</button>
+        <div id="siiaViska"></div>
+        <div id="kokku"></div>
+    </div>
+</body>
+</html>
